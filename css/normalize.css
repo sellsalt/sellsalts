@@ -1,0 +1,4 @@
+*{box-sizing: border-box;}/* 크기를 보더기준으로 지정할때,예측 가능한 결과를 만들기 위해서*/
+body{
+    margin: 0px auto;
+}

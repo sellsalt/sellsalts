@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="제품, 공간, 애니메이션, 게임, IT 등 다양한 콘텐츠로 새로운 문화를 만드는 글로벌 크리에이티브 스튜디오">
+<meta name="naver-site-verification" content="5f29c839f95fe8e49a9e499540fc930d99713d7f"/>
+<title>LINE FRIENDS Corporation</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="/css/line_friends.css?ver=20180205">
+<link rel="stylesheet" type="text/css" href="/css/line_friends_foreign.css">
+<link rel="stylesheet" type="text/css" href="/css/web_font.css">
+<script src="/js/jquery.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-50391448-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<style>
+#background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
+#background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1}
+#background_cycler img.active{z-index:3}
+
+#background_cycler2{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
+#background_cycler2 img{position:absolute;left:0;top:0;width:100%;z-index:1}
+#background_cycler2 img.active{z-index:3}
+</style>
+<script>
+var scrollMove = function (el) {
+	location.href="/"+el;
+}
+</script>
+<link rel="shortcut icon" href="/img/linefriends_favicon.ico">
+<link href="/img/apple_icon57x57.png" rel="apple-touch-icon" />
+<link href="/img/apple_icon76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/img/apple_icon120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/img/apple_icon152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/img/apple_icon180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="/img/icon192x192.png" rel="icon" sizes="192x192" />
+<link href="/img/icon128x128.png" rel="icon" sizes="128x128" />
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TB5PM2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TB5PM2');</script>
+<!-- End Google Tag Manager -->
+<div id="wrap">
+    <div id="header">
+		<div class="hd">
+			<h1 class="logo"><a href="/"><span class="blind">LINE FRIENDS</span></a></h1>
+			<ul class="navi">
+				<li><a href="javascript:scrollMove('#about');" class="about" >ABOUT</a></li>
+
+				<li><a href="javascript:scrollMove('#business');" class="business">CORE BUSINESS</a></li>
+
+				<li><a href="javascript:scrollMove('#gallery');" class="gallery">GALLERY</a></li>
+
+				<li><a href="javascript:scrollMove('#media');" class="media" >MEDIA</a></li>
+				<li><a href="javascript:scrollMove('#notice');" class="notice" >NOTICE</a></li>
+				<li><a href="https://store.linefriends.co.kr" target="_blank">SHOP ONLINE</a></li>
+			</ul>
+			<!--[D]클래스 opn 추가시 드랍박스 노출 -->
+			<div class="select_lang" id="lngSel">
+				<a class="select_opt" onClick="$(this).parent().toggleClass('opn')">한국어</a>
+				<div class="drop_box">
+				<ul>
+					<li><a href="?lang=ko" >한국어</a></li>
+					<li><a href="?lang=en" >ENGLISH</a></li>
+					<li><a href="?lang=jp" >日本語</a></li>
+					<li><a href="?lang=zh_CN" >中文(简体)</a></li>
+					<li><a href="?lang=zh_TW" >中文(繁體)</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="container">
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <style>
+            .currentPage {border:0 !important;color:#808080 !important;cursor:pointer}
+        </style>
+
+        <div class="spot">
+            <div class="bg_dim"></div>
+
+            <div class="spot_bg_img">
+                <img src="/content/banner/201901/b48fa919ea9f40518b77d10f51691602.jpg" alt="main banner 0" id="bgImg1"
+                          data-img="0">
+                <img src="/content/banner/201901/f97a2e463c97422496a48ae3cc48ebab.jpg" alt="main banner 1" id="bgImg1"
+                         style="display:none" data-img="1">
+                <img src="/content/banner/201901/063d782f5e99431dacd11bfdc8d56d8d.jpg" alt="main banner 2" id="bgImg1"
+                         style="display:none" data-img="2">
+                <img src="/content/banner/201901/a546b671f9034b1eabac1d266c1b0f1c.jpg" alt="main banner 3" id="bgImg1"
+                         style="display:none" data-img="3">
+                <img src="/content/banner/201901/b702efc697ec4f93b22bcb7c70883ea7.jpg" alt="main banner 4" id="bgImg1"
+                         style="display:none" data-img="4">
+                <img src="/content/banner/201901/d3996fb2e3994ca0b818a50e958fd855.jpg" alt="main banner 5" id="bgImg1"
+                         style="display:none" data-img="5">
+                </div>
+
+
+            <div class="spot_txt">
+                <p>Global Creative Studio</p>
+                <h2><span class="blind">LINE FRIENDS</span></h2>
+            </div>
+
+            <ul class="move_spot">
+                <li><a onClick="cycleImages.next();" style="cursor:pointer" class="next"><span class="blind">next</span></a>
+                </li>
+                <li><a onClick="cycleImages.prev();" style="cursor:pointer" class="prev"><span class="blind">prev</span></a>
+                </li>
+            </ul>
+
+            <div class="page">
+                <ul>
+                    <li><a id="img0" class="on" onClick="cycleImages.choose(0);" style="cursor:pointer"><span class="blind">0/span></a></li>
+                    <li><a id="img1"  onClick="cycleImages.choose(1);" style="cursor:pointer"><span class="blind">1/span></a></li>
+                    <li><a id="img2"  onClick="cycleImages.choose(2);" style="cursor:pointer"><span class="blind">2/span></a></li>
+                    <li><a id="img3"  onClick="cycleImages.choose(3);" style="cursor:pointer"><span class="blind">3/span></a></li>
+                    <li><a id="img4"  onClick="cycleImages.choose(4);" style="cursor:pointer"><span class="blind">4/span></a></li>
+                    <li><a id="img5"  onClick="cycleImages.choose(5);" style="cursor:pointer"><span class="blind">5/span></a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="section_about" id="about">
+                <h2>ABOUT<br>LINE FRIENDS</h2>
+                <p>라인프렌즈는 2011년, 모바일 메신저 ‘라인’ 의 스티커 캐릭터로 탄생했습니다. 오리지널 캐릭터 ‘브라운앤프렌즈’ 에 이어 글로벌 인기 아티스트 방탄소년단과 함께 만든 ‘BT21’, 중국의 아이돌 스타 왕위엔과 협업한 ‘ROY6’ 등 새로운 캐릭터 IP들이 밀레니얼 세대의 큰 사랑을 받으며, 다양한 IP를 보유한 글로벌 크리에이티브 스튜디오로 도약하고 있습니다.</p>
+                <div class="thumb">
+                    <a href="#">
+                                <img src="img/img_about_thumb.jpg" alt="About Thumbnail Image">
+                            </a>
+                        </div>
+                <div class="ly_pop_wrap">
+                    <div class="movie_popup">
+                        <iframe width="1077" height="603" src="https://www.youtube.com/embed/YdGtxXYIFQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                    <a href="#" class="clse"><span class="blind">close</span></a>
+                    <div class="dim"></div>
+                </div>
+            </div>
+            <div class="section" id="business">
+                <h2>CORE BUSINESS</h2>
+                <ul class="sec_list">
+                    <li class="first">
+                        <div class="thumb"><img src="/img/img_sec_icon4.gif" alt="Character Goods">
+                        </div>
+                        <dl>
+                            <dt>RETAIL</dt>
+                            <dd>다양한 캐릭터 제품을 자체 제작하여 전 세계 주요 도시의 온/오프라인 스토어에서 판매하고 매장을 통해 도심 속 활력의 경험을 제공합니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="thumb"><img src="/img/img_sec_icon5.gif" alt="Licensing"></div>
+                        <dl>
+                            <dt>PARTNERSHIP</dt>
+                            <dd>다양한 글로벌 파트너들과의 전략적 제휴를 통해 콜라보레이션, 라이센싱 제품을 만들고 서로의 철학과 가치를 나눕니다.​</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="thumb"><img src="/img/img_sec_icon6.gif" alt="Contents"></div>
+                        <dl>
+                            <dt>CONTENTS</dt>
+                            <dd>애니메이션, 게임 콘텐츠를 내부 스튜디오에서 자체 제작하는 동시에 IT 노하우와 기술을 더하여 AI,IoT 등으로 사업을 확장하고 있습니다.</dd>
+                        </dl>
+                    </li>
+                </ul>
+
+                <ul class="btn_area">
+                    <li><a href="partnership.do"><span>제휴 제안</span></a></li>
+                    </ul>
+            </div>
+
+            <div class="section3" id="gallery">
+                <div class="image_view">
+                    <div class="sec3_bg_img">
+                        <img src="/content/photo/201901/5e9e58d2a43c40a599b8918bd72c9df5.jpg" class="active" id="g1" style="z-index:0">
+                        <img src="" id="g2" style="z-index:0">
+                    </div>
+                    <ul class="move_sec3">
+                        <li><a onClick="gallary.next();" style="cursor:pointer" class="next"><span class="blind">next</span></a></li>
+                        <li><a onClick="gallary.prev();" style="cursor:pointer" class="prev"><span class="blind">prev</span></a></li>
+                    </ul>
+                    <h3 class="img_tit">
+                        <a href="https://goo.gl/maps/zccWjU2PuuZjFNsp7" target="_blank">
+                            <em id="gallary_title">뉴욕 타임스퀘어</em>
+                        </a>
+                    </h3>
+                    <div class="img_rolling">
+                        <ul id="gallyPagging" style="margin-left:0">
+                            <li>
+                                    <a  class="on"  onClick="gallary.choose(0);">
+                                        <img src="/content/photo/201901/5e9e58d2a43c40a599b8918bd72c9df5.jpg" width="60" height="40">
+                                    </a>
+                                </li>
+                            <li>
+                                    <a  onClick="gallary.choose(1);">
+                                        <img src="/content/photo/201901/358880900eb04b75a2f854666f0bc2a8.jpg" width="60" height="40">
+                                    </a>
+                                </li>
+                            <li>
+                                    <a  onClick="gallary.choose(2);">
+                                        <img src="/content/photo/201901/5063a11e33b543ceaf0749cd0c644ac6.jpg" width="60" height="40">
+                                    </a>
+                                </li>
+                            <li>
+                                    <a  onClick="gallary.choose(3);">
+                                        <img src="/content/photo/201901/67b21996a3344742a5662171cd7677b8.jpg" width="60" height="40">
+                                    </a>
+                                </li>
+                            <li>
+                                    <a  onClick="gallary.choose(4);">
+                                        <img src="/content/photo/201901/90278d132a464ce2aa2326c23c379790.jpg" width="60" height="40">
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <ul class="rolling_move">
+                        <li><a onClick="gallary.nextPage();" style="cursor:pointer" class="next"><span class="blind">next</span></a></li>
+                        <li><a onClick="gallary.prevPage();" style="cursor:pointer" class="prev"><span class="blind">prev</span></a></li>
+                    </ul>
+                </div>
+            </div>            <div class="section_media" id="media">
+                    <h2>MEDIA</h2>
+                    <div class="media_contents pr_content">
+                        <ul class="media_pg">
+                            <li>
+    <a href="/pr?articleId=66" class="media_item" target="_self">
+    <div class="media_list">
+        <div class="img_area" style="position:relative;width:640px;height:330px;overflow: hidden;" >
+            <img src="/content/prImg/thumb/cc1955aaa28b4ee4951fb924e86d60f4.jpg" style="position: absolute;left: 50%;top: 50%;height:auto;width:100%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);" alt="media 이미지">
+        </div>
+        
+        <div class="info_area">
+            <dl>
+                <dt class="blind">제목</dt>
+                <dd class="detail_title">라인프렌즈 ‘BT21 UNIVERSE’, 새로운 세계관과 스토리로 강력하게 돌아왔다!</dd>
+                <dt class="blind">주요내용</dt>
+                <dd class="detail_info">라인프렌즈가 지난 16일 더욱 새롭고 풍성해진 BT21의 세계관을 담은 ‘BT21 UNIVERSE(유니버스)’ 시즌 3의 메이킹 영상 1화를 공개, 글로벌 MZ 세대들의 많은 관심을 받으며 큰 화제를 모으고 있다. </dd>
+                <dt class="blind">보도자료배포일자</dt>
+                <dd class="detail_date">2020-04-17</dd>
+            </dl>
+        </div>
+    </div>
+    </a>
+</li>
+<li>
+    <a href="/pr?articleId=65" class="media_item" target="_self">
+    <div class="media_list">
+        <div class="img_area" style="position:relative;width:640px;height:330px;overflow: hidden;" >
+            <img src="/content/prImg/thumb/6a1e587db8034b15a18882c9b54ad60b.jpg" style="position: absolute;left: 50%;top: 50%;height:auto;width:100%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);" alt="media 이미지">
+        </div>
+        
+        <div class="info_area">
+            <dl>
+                <dt class="blind">제목</dt>
+                <dd class="detail_title">라인프렌즈, 미국 가죽 명품 브랜드 ‘메이커’와 콜라보레이션한  ‘MAKR X LINE FRIENDS BROWN LIMITED EDITION’ 글로벌 런칭 </dd>
+                <dt class="blind">주요내용</dt>
+                <dd class="detail_info">라인프렌즈가 공학적 정교함을 바탕으로 전세계  트렌드 세터들의 주목을 받고 있는 미국 가죽 명품 브랜드 ‘메이커’와 손잡고 ‘라인프렌즈 브라운 리미티드 에디션’을 글로벌 런칭했다. </dd>
+                <dt class="blind">보도자료배포일자</dt>
+                <dd class="detail_date">2020-03-24</dd>
+            </dl>
+        </div>
+    </div>
+    </a>
+</li>
+<li>
+    <a href="/pr?articleId=63" class="media_item" target="_self">
+    <div class="media_list">
+        <div class="img_area" style="position:relative;width:640px;height:330px;overflow: hidden;" >
+            <img src="/content/prImg/202003/ffe354b7d30941e6b6f1b2bc5a03250b.jpg" style="position: absolute;left: 50%;top: 50%;height:auto;width:100%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);" alt="media 이미지">
+        </div>
+        
+        <div class="info_area">
+            <dl>
+                <dt class="blind">제목</dt>
+                <dd class="detail_title">라인프렌즈, ‘BT21 BABY’ 테마 컬렉션 글로벌 론칭! </dd>
+                <dt class="blind">주요내용</dt>
+                <dd class="detail_info">라인프렌즈가 극강의 귀여움으로 무장한 ‘BT21 BABY’ 테마 컬렉션을 글로벌 론칭하며 전 세계 MZ세대(밀레니얼/Z세대)들의 마음을 다시 한 번 사로잡는다.</dd>
+                <dt class="blind">보도자료배포일자</dt>
+                <dd class="detail_date">2020-03-05</dd>
+            </dl>
+        </div>
+    </div>
+    </a>
+</li>
+</ul>
+                    </div>
+                    <div class="paginate pr_paginate">
+                        <ul>
+                            <li>
+                                    <a href="#pr_page1"><span >1</span></a>
+                                </li>
+                            <li>
+                                    <a href="#pr_page2"><span  class="currentPage" >2</span></a>
+                                </li>
+                            <li>
+                                    <a href="#pr_page3"><span  class="currentPage" >3</span></a>
+                                </li>
+                            <li>
+                                    <a href="#pr_page4"><span  class="currentPage" >4</span></a>
+                                </li>
+                            <li>
+                                    <a href="#pr_page5"><span  class="currentPage" >5</span></a>
+                                </li>
+                            <li><a href="#pr_page6">&gt</a></li>
+                            </ul>
+                    </div>
+                </div>
+            <div class="section_notice" id="notice">
+                    <h2>NOTICE</h2>
+                    <div class="notice_contents">
+                        <table cellspacing="0" cellpadding="0" border="0" summary="" class="tbl_notice">
+                            <caption class="blind">NOTICE</caption>
+                            <colgroup>
+                                <col style="width:80px">
+                                <col style="width:80px">
+                                <col>
+                                <col style="width:120px">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th scope="col">번호</th>
+                                <th scope="col">지역</th>
+                                <th scope="col">제목</th>
+                                <th scope="col">날짜</th>
+                            </tr>
+                            </thead>
+                            <tbody id="notiContent" class="noti_content">
+                            <tr>
+        <td>19</td>
+        <td>
+        한국</td>
+        <td class="title"><a href="/noti?notiSeq=126" class="view_detail"><strong>[BRAWL STARS] Zany action stickers launch</strong></a></td>
+        <td>2020-05-05</td>
+    </tr>
+<tr>
+        <td>18</td>
+        <td>
+        </td>
+        <td class="title"><a href="/noti?notiSeq=124" class="view_detail"><strong>[LINE FRIENDS CREATOR] Create your own Brawl Stars Merch– now 20% off for a limited time!</strong></a></td>
+        <td>2020-04-23</td>
+    </tr>
+<tr>
+        <td>17</td>
+        <td>
+        한국</td>
+        <td class="title"><a href="/noti?notiSeq=118" class="view_detail"><strong>[Store Notice] LINE FRIENDS Itaewon Flagship Store closure</strong></a></td>
+        <td>2020-03-26</td>
+    </tr>
+</tbody>
+                        </table>
+                    </div>
+
+                    <div class="paginate noti_paginate">
+                        <ul>
+                            <li>
+                                    <a href="#noti_page1"><span >1</span></a>
+                                </li>
+                            <li>
+                                    <a href="#noti_page2"><span  class="currentPage" >2</span></a>
+                                </li>
+                            <li>
+                                    <a href="#noti_page3"><span  class="currentPage" >3</span></a>
+                                </li>
+                            <li>
+                                    <a href="#noti_page4"><span  class="currentPage" >4</span></a>
+                                </li>
+                            <li>
+                                    <a href="#noti_page5"><span  class="currentPage" >5</span></a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="section5">
+                <ul class="ip_list">
+                    <li>
+                        <div class="thumb_box">
+                            <img src="img/img_ip_thumb1.jpg" alt="BROWN & FRIENDS">
+                        </div>
+                        <div class="info_desc">
+                            <strong>BROWN & FRIENDS</strong>
+                            <p>전 세계 2억 명이 사용하는 모바일 메신저 ‘라인’의<br>스티커 캐릭터로 탄생한 ‘BROWN & FRIENDS’는 이제<br>모바일을 넘어 캐릭터 제품, 애니메이션, 게임, 카페,<br>호텔 등 다양한 영역에서 만날 수 있는 글로벌 라이프스타일<br>브랜드가 되었습니다.</p>
+                        </div>
+                        <div class="more_btns">
+                            <a href="https://www.youtube.com/channel/UC9HtPH9bBaUHueFdb5ygP5Q" target="_blank">OFFICIAL CHANNEL</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb_box">
+                            <img src="img/img_ip_thumb2.jpg" alt="BT21">
+                        </div>
+                        <div class="info_desc">
+                            <strong>BT21</strong>
+                            <p>BT21은 글로벌 인기 아티스트 BTS와 라인프렌즈가 만든 캐릭터<br>IP로 ‘FRIENDS CREATORS’ 프로젝트를 통해 탄생했습니다.<br>BTS 멤버들이 제작 과정에 직접 참여하여 각자의 개성과 감성을<br>담은 총 8종의 캐릭터를 만들었고, 출시와 함께 전 세계<br>밀레니얼들의 폭발적인 공감을 이끌어내며 큰 사랑을 받고 있습니다.</p>
+                        </div>
+                        <div class="more_btns">
+                            <a href="https://www.youtube.com/channel/UCINr5W7cwW06ADtsszAToAw" target="_blank">OFFICIAL CHANNEL</a>
+                            <a href="https://www.bt21.com/character?lang=ko" target="_blank">CHARACTERS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb_box">
+                            <img src="img/img_ip_thumb3.jpg" alt="ROY6">
+                        </div>
+                        <div class="info_desc">
+                            <strong>ROY6</strong>
+                            <p>ROY6는 중국의 차세대 아이돌 왕위엔 (Roy Wang) 과 함께<br>만든 캐릭터 IP 입니다. 라인프렌즈의 전문성과 아티스트의 창의성을<br>결합하여 새로운 IP를 만드는 ‘FRIENDS CREATORS’ 프로젝트의<br>취지에 맞춰, 왕위엔의 긍정적인 기운과 라인프렌즈의 디자인<br>역량이 가미된 6종의 캐릭터가 탄생했습니다.</p>
+                        </div>
+                        <div class="more_btns">
+                            <a href="https://www.youtube.com/channel/UCkUmOIqo61cQyWveHq3ePdw" target="_blank">OFFICIAL CHANNEL</a>
+                            <a href="https://www.linefriends.com/roy6?lang=en" target="_blank">CHARACTERS</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>        <div id="movieDim" class="dim" style="display:none;"></div>
+
+        <script>
+            var scrollMove = function (el) {
+                var topPosition = 0;
+
+                if($(el).offset() != null) {
+                    topPosition = $(el).offset().top;
+                }
+
+                $('body, html').stop();
+                $('body, html').animate(
+                        {
+                            scrollTop: topPosition
+                        },
+                         "very slow");
+            };
+
+            var gallary = {
+                currentNum: 0,
+                currentPagging: 1,
+                currentImg: $("#g1"),
+                nextImg: $("#g2"),
+                gallaryList: [{
+                    "src": "/content/photo/201901/5e9e58d2a43c40a599b8918bd72c9df5.jpg",
+                    "map": "https://goo.gl/maps/zccWjU2PuuZjFNsp7",
+                    "title": "뉴욕 타임스퀘어"
+                },
+                    {
+                    "src": "/content/photo/201901/358880900eb04b75a2f854666f0bc2a8.jpg",
+                    "map": "https://goo.gl/maps/zccWjU2PuuZjFNsp7",
+                    "title": "뉴욕 타임스퀘어"
+                },
+                    {
+                    "src": "/content/photo/201901/5063a11e33b543ceaf0749cd0c644ac6.jpg",
+                    "map": "https://goo.gl/maps/zccWjU2PuuZjFNsp7",
+                    "title": "뉴욕 타임스퀘어"
+                },
+                    {
+                    "src": "/content/photo/201901/67b21996a3344742a5662171cd7677b8.jpg",
+                    "map": "https://goo.gl/maps/zccWjU2PuuZjFNsp7",
+                    "title": "뉴욕 타임스퀘어"
+                },
+                    {
+                    "src": "/content/photo/201901/90278d132a464ce2aa2326c23c379790.jpg",
+                    "map": "https://goo.gl/maps/zccWjU2PuuZjFNsp7",
+                    "title": "뉴욕 타임스퀘어"
+                },
+                    {
+                    "src": "/content/photo/201901/5d5a2304f96f4e25a92b660e6e5c9aec.jpg",
+                    "map": "https://goo.gl/maps/PxAYH9k1nmGUM1Wh8",
+                    "title": "LA 할리우드"
+                },
+                    {
+                    "src": "/content/photo/201901/5370159d45a54ad6bb9051449b7906e9.jpg",
+                    "map": "https://goo.gl/maps/PxAYH9k1nmGUM1Wh8",
+                    "title": "LA 할리우드"
+                },
+                    {
+                    "src": "/content/photo/201901/8f91f100acfe4d6eacec67ce43022063.jpg",
+                    "map": "https://goo.gl/maps/PxAYH9k1nmGUM1Wh8",
+                    "title": "LA 할리우드"
+                },
+                    {
+                    "src": "/content/photo/201901/7c81dce4b6714f0e8f5a2e42205a7f2a.jpg",
+                    "map": "https://goo.gl/maps/PxAYH9k1nmGUM1Wh8",
+                    "title": "LA 할리우드"
+                },
+                    {
+                    "src": "/content/photo/201901/3d1ef121f4f44514ab65c7840480f497.jpg",
+                    "map": "https://goo.gl/maps/PxAYH9k1nmGUM1Wh8",
+                    "title": "LA 할리우드"
+                },
+                    {
+                    "src": "/content/photo/201901/1fa25ad4d21c43dbb600fb2005174f7d.jpg",
+                    "map": "https://j.map.baidu.com/Rc_kO",
+                    "title": "상해 신천지"
+                },
+                    {
+                    "src": "/content/photo/201901/b025451ab5b44afb9ef69424633f0d28.jpg",
+                    "map": "https://j.map.baidu.com/Rc_kO",
+                    "title": "상해 신천지"
+                },
+                    {
+                    "src": "/content/photo/201901/0f7091cb256146a78c93bc3511953e79.jpg",
+                    "map": "https://j.map.baidu.com/Rc_kO",
+                    "title": "상해 신천지"
+                },
+                    {
+                    "src": "/content/photo/201901/b29b64c51d63420c9cb428463bd478b2.jpg",
+                    "map": "https://j.map.baidu.com/Rc_kO",
+                    "title": "상해 신천지"
+                },
+                    {
+                    "src": "/content/photo/201901/2893a93c9b884928aadbfb2d9b15cd9c.jpg",
+                    "map": "https://j.map.baidu.com/Rc_kO",
+                    "title": "상해 신천지"
+                },
+                    {
+                    "src": "/content/photo/201901/dd23d465008c49258d1139f8e779d2c1.jpeg",
+                    "map": "https://j.map.baidu.com/1w47G",
+                    "title": "상해 오각장"
+                },
+                    {
+                    "src": "/content/photo/201901/702808571d2047e3888d1b35cf1a2f45.jpeg",
+                    "map": "https://j.map.baidu.com/1w47G",
+                    "title": "상해 오각장"
+                },
+                    {
+                    "src": "/content/photo/201901/145961db0670414a928b64bf8c421eef.jpeg",
+                    "map": "https://j.map.baidu.com/1w47G",
+                    "title": "상해 오각장"
+                },
+                    {
+                    "src": "/content/photo/201901/146fc63155994e798b31f213d2c428d2.jpeg",
+                    "map": "https://j.map.baidu.com/1w47G",
+                    "title": "상해 오각장"
+                },
+                    {
+                    "src": "/content/photo/201901/56b8641c6c61474db265419a4b466e37.jpeg",
+                    "map": "https://j.map.baidu.com/1w47G",
+                    "title": "상해 오각장"
+                },
+                    {
+                    "src": "/content/photo/201901/d3c8102c45434027a9387776f891eff1.jpg",
+                    "map": "https://goo.gl/maps/yCcZAidNeDJDisp49",
+                    "title": "서울 홍대"
+                },
+                    {
+                    "src": "/content/photo/201901/ddcc6496131d42b298e813e71af3a192.jpg",
+                    "map": "https://goo.gl/maps/yCcZAidNeDJDisp49",
+                    "title": "서울 홍대"
+                },
+                    {
+                    "src": "/content/photo/201901/a53e082ead634d11af867a543fc739cc.jpg",
+                    "map": "https://goo.gl/maps/yCcZAidNeDJDisp49",
+                    "title": "서울 홍대"
+                },
+                    {
+                    "src": "/content/photo/201901/79d995a2b7ed41f4a21cd68f82345ed0.jpg",
+                    "map": "https://goo.gl/maps/yCcZAidNeDJDisp49",
+                    "title": "서울 홍대"
+                },
+                    {
+                    "src": "/content/photo/201901/a5c965505eca4053a782cfc33059bb4b.jpg",
+                    "map": "https://goo.gl/maps/yCcZAidNeDJDisp49",
+                    "title": "서울 홍대"
+                },
+                    {
+                    "src": "/content/photo/201901/dd9ecff05d5b4cdba743ef4b54bb7f28.jpg",
+                    "map": "https://goo.gl/maps/EnFfbuE58BjSA6Jr6",
+                    "title": "홍콩 APM"
+                },
+                    {
+                    "src": "/content/photo/201901/3ca92e27fb2b47e6a83e5738d018a1e0.jpg",
+                    "map": "https://goo.gl/maps/EnFfbuE58BjSA6Jr6",
+                    "title": "홍콩 APM"
+                },
+                    {
+                    "src": "/content/photo/201901/7ca5a82b6c8b49078166afbe1081f346.jpg",
+                    "map": "https://goo.gl/maps/EnFfbuE58BjSA6Jr6",
+                    "title": "홍콩 APM"
+                },
+                    {
+                    "src": "/content/photo/201901/1529c3d6d36242e88b7defd4b95f992f.jpg",
+                    "map": "https://goo.gl/maps/EnFfbuE58BjSA6Jr6",
+                    "title": "홍콩 APM"
+                },
+                    {
+                    "src": "/content/photo/201901/775825a19f82425bab06a287b5962515.jpg",
+                    "map": "https://goo.gl/maps/EnFfbuE58BjSA6Jr6",
+                    "title": "홍콩 APM"
+                },
+                    {
+                    "src": "/content/photo/201901/e155bad243fc44d889c887718c32e790.jpg",
+                    "map": "https://goo.gl/maps/ftg37sZNvodKH6M66",
+                    "title": "도쿄 하라주쿠"
+                },
+                    {
+                    "src": "/content/photo/201901/cf367a5e336e401e9aa7b343593bc9bd.jpg",
+                    "map": "https://goo.gl/maps/ftg37sZNvodKH6M66",
+                    "title": "도쿄 하라주쿠"
+                },
+                    {
+                    "src": "/content/photo/201901/e947dfdee97e444ba4b10808dfe856fd.jpg",
+                    "map": "https://goo.gl/maps/ftg37sZNvodKH6M66",
+                    "title": "도쿄 하라주쿠"
+                },
+                    {
+                    "src": "/content/photo/201901/353a860d003a4715826b4fc28a51bf00.jpg",
+                    "map": "https://goo.gl/maps/ftg37sZNvodKH6M66",
+                    "title": "도쿄 하라주쿠"
+                },
+                    {
+                    "src": "/content/photo/201901/701fa4d1c8c14e14972848f2d69ec031.jpg",
+                    "map": "https://goo.gl/maps/ftg37sZNvodKH6M66",
+                    "title": "도쿄 하라주쿠"
+                },
+                    {
+                    "src": "/content/photo/201901/ba24d80a37bc419f95cffc0e670cd57d.jpg",
+                    "map": "https://goo.gl/maps/bTkhioPpiYjQkkEA8",
+                    "title": "방콕 라인빌리지"
+                },
+                    {
+                    "src": "/content/photo/201901/c74c595e07454451a3ba38c052d476a4.jpg",
+                    "map": "https://goo.gl/maps/bTkhioPpiYjQkkEA8",
+                    "title": "방콕 라인빌리지"
+                },
+                    {
+                    "src": "/content/photo/201901/6878a5d9628c4db9ad56aa4c01c35e96.jpg",
+                    "map": "https://goo.gl/maps/bTkhioPpiYjQkkEA8",
+                    "title": "방콕 라인빌리지"
+                },
+                    {
+                    "src": "/content/photo/201901/c8fadf09d2f0436e80da21b6904eab37.jpg",
+                    "map": "https://goo.gl/maps/bTkhioPpiYjQkkEA8",
+                    "title": "방콕 라인빌리지"
+                },
+                    {
+                    "src": "/content/photo/201901/abc9747413ce48f68b90dac594ada2a1.jpg",
+                    "map": "https://goo.gl/maps/bTkhioPpiYjQkkEA8",
+                    "title": "방콕 라인빌리지"
+                },
+                    ],
+
+                getImgNum: function (num) {
+                    return this.gallaryList[num];
+                },
+
+                next: function () {
+                    if (this.currentNum % 5 != 4) {
+                        this.currentNum += 1;
+                        if (this.currentNum > this.gallaryList.length) this.currentNum = 0;
+                        this.choose(this.currentNum % 5);
+                    } else {
+                        this.nextPage();
+                    }
+                },
+
+                prev: function () {
+                    if (this.currentNum % 5 != 0) {
+                        this.currentNum -= 1;
+                        if (this.currentNum < 0) this.currentNum = this.gallaryList.length - 1;
+                        this.choose(this.currentNum % 5);
+                    } else {
+                        this.prevPage();
+                    }
+                },
+
+                /**
+                 * 0~4까지 숫자만 넘어옴
+                 */
+                choose: function (num) {
+                    this.currentImg.stop();
+                    this.nextImg.stop();
+                    var chooseNum = (this.currentPagging - 1) * 5 + num;
+
+                    $(".img_rolling a").removeClass("on");
+
+                    var result = gallary.getImgNum(chooseNum);
+                    $("#gallary_title").html(result.title);
+                    $("#gallary_title").parent().attr("href", result.map);
+                    this.nextImg.attr("src", result.src);
+
+                    $($(".img_rolling a")[num]).addClass("on");
+
+                    this.show();
+                },
+
+                /**
+                 * 전체 이미지 갱신
+                 */
+                reloadPage: function () {
+                    this.currentPagging = Math.ceil((this.currentNum + 1) / 5);
+                    $(".img_rolling a").removeClass("on");
+
+                    $(".img_rolling img").each(function (num) {
+                        var result = gallary.getImgNum((gallary.currentPagging - 1) * 5 + num);
+                        this.src = result.src;
+                    });
+
+                    $($(".img_rolling a")[this.currentNum % 5]).addClass("on");
+                },
+
+                prevPage: function () {
+                    this.currentNum -= (this.currentNum % 5 + 1);
+                    if (this.currentNum < 0) this.currentNum = this.gallaryList.length - 1;
+                    this.reloadPage();
+                    this.choose(this.currentNum % 5);
+                },
+
+                nextPage: function () {
+                    this.currentNum += (5 - this.currentNum % 5);
+                    if (this.currentNum > this.gallaryList.length - 1) this.currentNum = 0;
+                    this.reloadPage();
+                    this.choose(this.currentNum % 5);
+                },
+
+                show: function () {
+                    var next = this.nextImg;
+                    var current = this.currentImg;
+                    //next.css('z-index',2);//move the next image up the pile
+
+                    current.fadeOut();
+                    $(next).fadeIn(1000);
+
+                    this.currentImg = next;
+                    this.nextImg = current;
+                }
+            }
+
+            function pad(n, width, z) {
+                z = z || '0';
+                n = n + '';
+                return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+            }
+
+            var cycleImages = {
+                autoTimer: 0,
+                current: 0,
+                next: function () {
+                    var next = (this.current + 1 == $('.spot_bg_img img').length) ? 0 : this.current + 1;
+                    this.show($('.spot_bg_img img')[next]);
+                },
+
+                prev: function () {
+                    var prev = (this.current == 0) ? $('.spot_bg_img img').length - 1 : this.current - 1;
+                    this.show($('.spot_bg_img img')[prev]);
+                },
+
+                choose: function (num) {
+                    this.show($($('.spot_bg_img img')[num]));
+                },
+
+                show: function (view) {
+
+                    $('.page a').each(function () {
+                        $(this).removeClass('on');
+                    })
+
+                    var $active = $($('.spot_bg_img img')[this.current]);
+
+                    $active.stop();
+
+                    this.current = $(view).data("img");
+
+                    $('#img' + $(view).data("img")).addClass("on");
+                    // $(view).css('z-index',2);//move the next image up the pile
+                    $active.fadeOut();
+                    $(view).fadeIn(1000);
+                    /*
+                    $('#background_cycler')
+                        .animate({opacity: 0}, 'slow', function() {
+                            $(this)
+                             .css({'background-image': 'url(../img/01.jpg)', 'background-position':'center' })
+                             .animate({opacity: 1});
+                    });
+                    */
+                }
+            }
+
+            $(function () {
+                $(window).bind("scroll", function () {
+                    let scrollPosition = window.pageYOffset;
+                    let $aboutTop = $('#about').offset().top;
+                    let $businessTop = $('#business').offset().top;
+                    let $galleryTop = $('#gallery').offset().top;
+                    let $mediaTop = $('#media').length ? $('#media').offset().top : 99999;
+                    let $noticeTop = $('#notice').length ? $('#notice').offset().top : 99999;
+
+                    if(scrollPosition >= $noticeTop) {
+                        $('.navi a').removeClass('on');
+                        $('.navi .notice').addClass('on');
+                    } else if(scrollPosition >= $mediaTop) {
+                        $('.navi a').removeClass('on');
+                        $('.navi .media').addClass('on');
+                    } else if(scrollPosition >= $galleryTop) {
+                        $('.navi a').removeClass('on');
+                        $('.navi .gallery').addClass('on');
+                    } else if(scrollPosition >= $businessTop) {
+                        $('.navi a').removeClass('on');
+                        $('.navi .business').addClass('on');
+                    } else if(scrollPosition >= $aboutTop) {
+                        $('.navi a').removeClass('on');
+                        $('.navi .about').addClass('on');
+                    }
+                });
+            });
+
+            $(window).resize(function () {
+                // 이미지 사이즈 1800*1160
+                resizeGally();
+            });
+
+            function resizeGally() {
+                var width = document.body.scrollWidth;
+                var height = document.documentElement.clientHeight;
+
+                // 가로가 클때
+                if (width * 116 > 180 * height) {
+
+                    $('.spot_bg_img img').addClass("portrait");
+                    $('#g2').addClass("portrait");
+                    $('#g1').addClass("portrait");
+                } else {
+
+                    $('.spot_bg_img img').removeClass("portrait");
+                    $('#g2').removeClass("portrait");
+                    $('#g1').removeClass("portrait");
+                }
+            }
+
+            resizeGally();
+
+            $(".clse").on("click", function () {
+                $('#movie').hide();
+                $('#movie2').hide();
+                $('#movieDim').hide();
+                $("body").css({overflow: 'scroll'});
+            });
+
+            $(".showMovie").on("click", function (event) {
+                if ("中文(简体)" === "한국어") {
+                    alert("在准备中。");
+                    return;
+                }
+
+                if ($(this).data("movie") == 1) {
+                    //$('#movie').show();
+                    //$('#movie2').hide();
+                    //$('#movieDim').show();
+                    //$("body").css({overflow:'hidden'})
+                    window.open("https://www.youtube.com/channel/UC9HtPH9bBaUHueFdb5ygP5Q", "movie");
+                } else {
+                    window.open("https://www.youtube.com/channel/UCINr5W7cwW06ADtsszAToAw", "movie");
+                    //$('#movie2').show();
+                    //$('#movie').hide();
+                    //$('#movieDim').show();
+
+                    //$("body").css({overflow:'hidden'})
+                }
+            });
+
+            $(document).ready(function () {
+                pagenation();
+            });
+
+            $(window).on('hashchange', function () {
+                pagenation();
+            });
+
+            var screen = [];
+            screen["pr"] = 1;
+            screen["prTotal"] = 20.0;
+            screen["noti"] = 1;
+            screen["notiTotal"] = 7.0;
+
+            function changePgScreen(type, num) {
+                if (screen[type] == num) return;
+
+                var end = screen[type + "Total"];
+                var nextflag = false;
+                screen[type] = num;
+
+                if (num * 5 < end) {
+                    end = num * 5;
+                    nextflag = true;
+                }
+                var startNum = (num - 1) * 5 + 1;
+
+                var html = "<ul>";
+
+                if (num > 1) {
+                    html += '<li><a href="#' + type + '_page' + (startNum - 1) + '"><span class="currentPage">&lt</span></a></li>'
+                }
+
+                for (; startNum <= end; startNum++) {
+                    html += '<li><a href="#' + type + '_page' + startNum + '"><span class="currentPage">' + startNum + '</span></a></li>'
+                }
+
+                if (nextflag) {
+                    html +=
+                      '<li><a href="#' + type + '_page' + (end + 1) + '"><span class="currentPage">&gt</span></a></li>'
+                }
+                html += "</ul>";
+                console.log("." + type + "_paginate");
+                $("." + type + "_paginate").html(html);
+            }
+
+            function pagenation() {
+                var page = window.location.hash;
+                var type = "";
+
+                if (page.indexOf("#noti_page") > -1) {
+                    type = "noti";
+                } else if (page.indexOf("#pr_page") > -1) {
+                    type = "pr";
+                }
+
+                if (type == "") return;
+
+                var pageNum = page.replace("#" + type + "_page", "");
+                var screenNum = Math.ceil(pageNum / 5);
+
+                changePgScreen(type, screenNum);
+
+                $.ajax({
+                    url: "/" + type + "List/" + pageNum,
+                    method: "get",
+                    contentType: "text/html",
+                    success: function (data) {
+                        $("." + type + "_paginate span").addClass("currentPage");
+                        $("." + type + "_paginate span").each(function() {
+                            if (this.innerText == pageNum) {
+                                $(this).removeClass("currentPage");
+                            }
+                        })
+                        $("." + type + "_content").html(data);
+                    }
+                });
+            }
+
+            $(window).scroll(function(){
+                if ($(document).scrollTop() > 0) {
+                    $('#header').addClass('fix');
+                } else {
+                    $('#header').removeClass('fix');
+                }
+            });
+
+            $('.thumb a').click(function(){
+                event.preventDefault();
+                $('.ly_pop_wrap').addClass('opn');
+            });
+
+            $('.ly_pop_wrap .clse').click(function(){
+                event.preventDefault();
+                $('.ly_pop_wrap').removeClass('opn');
+            });
+        </script>
+</div>
+    <div class="footer">
+		<div class="cont">
+			<h2><a href="#"><span class="blind">LINE FRIEDNS</span></a></h2>
+			<div class="txt">
+				<ul class="foot_menu">
+					<li><a href="/partnership.do">제휴제안</a></li>
+					<li><a href="https://store.linefriends.co.kr" target="_blank">온라인 스토어</a></li>
+					<li><a href="/personal">개인정보 처리방침</a></li>
+					<li><a href="/friendscare">FRIENDS CARE</a></li>
+				</ul>
+
+				<ul class="info">
+						<li class="first">라인프렌즈 주식회사</li>
+						<li>사업자등록번호: 726-87-00030</li>
+						<li>통신판매업 신고번호 : 2015-경기성남-0597</li>
+						<li class="first">대표이사 : 김성훈</li>
+						<li>서울특별시 용산구 한남대로 98, 5층 라인프렌즈</li>
+						<li>1544-5921</li>
+					</ul>
+				<address>Copyright &copy; LINE Friends All Rights Reserved</address>
+			</div>
+			<ul class="social_area">
+				<li class="social"><a href="https://www.facebook.com/linefriends" target="_blank"></a></li>
+				<li class="social2"><a href="http://instagram.com/linefriends" target="_blank"></a></li>
+				<li class="social3"><a href="https://www.twitter.com/_LINEFRIENDS" target="_blank"></a></li>
+				<li class="social4"><a href="https://goo.gl/w0lOVH" target="_blank"></a></li>
+				<li class="social5"><a href="http://weibo.com/linefriendschina" target="_blank"></a></li>
+				<li class="social6"><a href="https://blog.naver.com/linefriends_global" target="_blank"></a>
+					</li>
+				</ul>
+		</div>
+	</div>
+</div>
+
+<script>
+$(".btn_close").on("click", function () {
+    event.stopPropagation();
+    event.preventDefault();
+    $(".notice_layer").addClass("off");
+});
+</script>
+<script src="/js/tokenizer.js"></script>
+<script src="/js/parser.js"></script>
+<script src="/js/vminpoly.js"></script>
+</body>
+</html>

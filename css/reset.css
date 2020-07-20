@@ -1,0 +1,12 @@
+.blind {
+    visibility: hidden;
+    text-indent: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    }
+a {text-decoration: none;}

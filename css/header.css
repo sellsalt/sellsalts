@@ -1,0 +1,147 @@
+/* head area */
+.headerwarp{
+    /* border: 1px solid green; */
+    width: 1200px;
+    height: 80px;
+    margin:0 auto;
+    padding:0;
+    
+    }
+
+/* logo */
+h1.headerlogo{
+    width: 250px;
+    height: 27px;
+    display: block;
+    margin-top: 46px;
+    padding:0;
+    float: left;
+    text-align: center;
+    background: url(../img/nahum_logo.png) no-repeat;
+    background-size: cover;
+    
+} 
+header {
+    position: fixed; 
+    top:0; 
+    left:0; 
+    right:0; 
+    z-index:100; 
+    height:80px;
+    background-color: rgba(129, 158, 0, 0.644);
+    border-bottom: rgba(255, 255, 255, 0.2); 1px solid;
+}
+/* nav area */
+    .navwarp{
+    width: 800px;
+    margin:0 auto;
+    padding:5px;
+    display: inline-block;
+    text-align: center;
+    
+    /* border: 10px solid rebeccapurple; */
+}
+.nav{
+margin:0;
+/* padding:0; */
+padding-left:20px ;
+margin-left: 30px;
+padding-right:20px ;
+text-align:center;
+display: inline;
+/* border: 1px solid greenyellow; */
+/* background-color: palevioletred; */
+
+list-style:none;
+}
+.nav li{
+     display:inline;
+/* border:1px solid green; */ 
+}
+.nav li.on > a {
+    /* border-bottom:1px solid white; */
+    text-decoration: underline;
+}
+.langlist li.on > a {
+    border-bottom:1px solid rgb(116, 116, 116);
+    text-decoration: none;
+}
+.nav a{
+/* color: rgb(0, 160, 253); */
+color: #fff;
+display:inline-block;
+margin: 48px 25px 0;
+font-size: 13px;
+font-family:robotoLight;
+
+}
+.util{
+    float: right;
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 48px 0 0 0;
+    padding-top: 5px;
+    color: #fff;
+}
+.lang{
+    margin: 0 0 0 0;
+    list-style: none;
+    font-size: 12px;
+}
+.lang_basic_display {
+    padding-top: 0;
+}
+
+.langlist{
+    /* visibility: hidden; */
+    margin-top: 10px;
+    list-style: none;
+    background-color: white;
+    padding-left: 0;
+    padding-bottom: 15px;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+}
+.langlist.on {display: block;}
+.lang_basic_ko {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* border: 1px solid rebeccapurple ; */
+}
+
+.langlist > li{
+    color: rgb(87, 87, 87);
+    padding: 4px;
+    padding-left: 25px;
+    padding-right:20px;
+    text-decoration: none;
+}
+.langlist > li > a {
+    text-decoration: none;
+} 
+
+/* .lang_basic_ko {
+    margin-top: 15px;
+} */
+.bus_list01 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 2px solid #fff;
+}
+.bus_list02 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 2px solid #fff;
+}
+.bus_list03 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 2px solid #fff;
+}
+
+ 

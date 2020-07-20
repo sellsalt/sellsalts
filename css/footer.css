@@ -1,0 +1,104 @@
+footer{
+    background-color:#383838;
+    
+    margin: 0 auto;
+}
+.footer_contents{
+    position: relative;
+    display: block;
+    padding-top:70px;
+    width: 1180px;
+    height: 300px;
+    margin: 0 auto;
+    border: gold 1px solid;
+}
+.footer_logo{
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    /* padding-top:30px ; */
+    /* border: olive 5px solid; */
+    background: url("../img/nahum_logo.png") no-repeat;
+    float: left;
+    /* border: 1px red solid; */
+}
+.footer_link_group{
+    width: ;
+    /* border: 1px solid green; */
+    /* float: left; */
+}
+.footer_link_group ul{
+    width: 600px;
+    margin: 0;
+    /* border: 1px red solid; */
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.footer_list01{
+    width: 600px;
+}
+
+.footer_list01 li{
+    margin-bottom: 15px;
+    height: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 13px;
+    /* border-right: solid grey ;
+    border-width: 2px; */
+    text-align: center;
+    
+    /* border: solid 1px gold; */
+}
+ul.footer_list02{
+    padding-top:10px ;
+    /* border: solid 1px orange; */
+
+}
+
+ul.footer_list02 li{
+    margin:  0 0 0 0;
+    /* border: solid 1px blue; */
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: rgb(138, 138, 138);
+    
+
+}
+ul.footer_list03 li{
+    /* border: solid 1px gold; */
+    padding-top: 20px;
+    padding-left: 15px;
+    color: rgb(126, 126, 126);
+}
+
+
+.footer_link_group li{
+    list-style: none;
+    /* border: 3px solid sienna; */
+    float: left;
+    /* font-size: 12px; */
+    color: #fff;
+}
+
+.footer_social_link{
+    /* font-size: 12px; */
+    position: absolute;
+    margin: 0 0 0 0;
+    width: 300px;
+    float: right;
+    /* border: solid blueviolet; */
+    display: inline-block;
+    list-style: none;
+    margin-top: -200;
+    /* transition:-50% ; */
+}
+.icon-bar{
+    font-size: 10px;
+    
+}

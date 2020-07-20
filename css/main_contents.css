@@ -1,0 +1,442 @@
+ /* main media */
+/* .media_warp{
+    width: 100%;
+} */
+/* .media_main{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    
+    margin-top: -100px;
+    background-size: cover;
+    background: url(../img/pic01_resize.jpg);
+} */
+.e_slider{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    min-width: 1200px;
+    /* border: 2px solid purple; */
+    /* margin-top: -100px; */
+    position: absolute;
+    background-size: cover;
+    /* background: url(../img/pic01_resize.jpg); */
+}
+
+h2.media_main_logo{
+    width: 700px;
+    height: 75px;
+    text-align: center;
+    /* border: 1px solid purple; */
+    background: url(../img/nahum_main_logo_resize.png) no-repeat;
+    background-size: cover; 
+    position: absolute;
+    margin: 0 auto;
+    top:55%;
+    left:45%;
+    -webkit-transform:translate(-40%,-80%) ;
+    transform: translate(-40%,-80%);
+}
+.media_main p{color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    top:46%;
+    left:46%;
+    font-size: 30px;
+    -webkit-transform:translate(-40%,-80%);
+    transform: translate(-40%,-80%);
+    font-family: volteSemiBold, Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.business{
+    background: #faf8f5;
+    margin-top: 300px;
+    height: 700px;
+    overflow: hidden;                                                            
+    margin: 0 auto;
+}
+.contents{
+    width: 100%;
+    margin: 0 auto;
+}
+.about h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Volte Semibold';
+    color: #404040;
+    margin-top: 110px;
+}
+.about p{
+    width: 680px;
+    font-size: 13px;
+    color: #333;
+    margin: 0 auto;
+    font-family:NanumBarunGothic, sans-serif;
+    margin: 0 auto;
+    
+
+}
+.about_movie{
+    display: block;
+    text-align: center;
+    width: 820px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+}
+
+.about_movie02{
+    display: block;
+    /* text-align: center; */
+    width: 820px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+.business h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Volte Semibold';
+    color: #404040;
+    margin: 0 auto;
+    background: #faf8f5;
+    
+    margin-top: 120px;
+    /* border: 1px solid palegoldenrod; */
+    
+}
+.business_area{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+.business_area dd{
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.8;
+    /* border: 1px solid rebeccapurple ; */
+    margin-top: 15px;
+
+}
+.bus_btn{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 280px;
+    height: 55px;
+    /* border: 1px solid rebeccapurple; */
+    margin-bottom: 200px;
+    background: rgb(90, 90, 90);
+
+}
+
+.bus_btn p{
+    text-align: center;
+    font-size: 15px;
+    font-family:"NanumBarunGothic";
+    color: #fff;
+}
+
+
+.media{
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 50px;
+}
+
+.media_warp{
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 18px;
+}
+/* bx slider */
+
+.mediawarp .bx-wrapper {
+    width: 100%;
+    min-width: 1400px;
+    height: 950px;
+    border:none;
+    margin:0;
+    box-shadow: none;
+} 
+.mediawarp .bx-viewport {
+    height: 950px !important;
+}
+.mediawarp .bx-wrapper .bx-next {
+    /* border: 1px solid white; */
+    right: 10px;
+    width: 32px;
+    height: 61px;
+    background: url(../img/spr.png) no-repeat 0 -160px;
+}
+.mediawarp .bx-wrapper .bx-next:hover {background-position: 0 -160px;}
+.mediawarp .bx-wrapper .bx-viewport{top:-61px !important;}
+.mediawarp .bx-wrapper .bx-prev {
+    /* border: 1px solid white; */
+    right: 10px;
+    width: 32px;
+    height: 61px;
+    background: url(../img/spr.png) no-repeat 0 -228px;
+}
+.mediawarp .bx-wrapper .bx-prev:hover {background-position: 0 -228px;}
+.mediawarp .bx-wrapper .bx-pager {bottom:75px}
+.e_slider > li {
+    background-size: contain;
+    /* border: 1px solid yellow; */
+}
+
+
+
+
+
+.media_area{
+    width: 1020px;
+    /* border: 1px solid red; */
+    padding-top: 97px;
+    padding-bottom: 0;
+    
+}
+.media_area h2{
+    font-size: 84px;
+    font-family: 'Volte Semibold';
+    color: #404040;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    /* padding-top: 100px; */
+    text-align: center;
+}
+
+.media_contents{
+    width: 300px ;
+    float: left;
+    margin: 0 0 0 0;
+    padding-left: 40px;
+}
+.img_area{
+    width: 640px;
+    height: 330px;
+    float: left;
+    /* border: 1px solid red; */
+    position: relative;
+    overflow: hidden;
+}
+.img_area img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height:auto;
+    width:100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);"
+}
+
+.gallery_bg { 
+	margin:0 auto;
+	width:100%;
+	height:450px;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% 100%;
+}
+
+
+
+.media_title{
+    width: 300px;
+    font-family: 'NanumBarunGothicBold', sans-serif;
+    font-size: 15px;
+    color: rgb(27, 27, 27);
+    line-height: 24px;
+    /* border: solid red; */
+    margin: 40px 0 0 0;
+}
+
+.detail_contents{
+    font-family: 'NanumBarunGothicBold', sans-serif;
+    font-size: 14px;
+    margin: 30px 0 0 0;
+    color: rgb(90, 90, 90);
+    line-height: 24px;
+}
+
+.date{
+    font-family: 'NanumBarunGothic', sans-serif;
+    font-size: 14px;
+    margin: 60px 0 0 0;
+    color: #999;
+    font-family: 'robotoLight', sans-serif;
+}
+.page_next_area{
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+    margin: 0 0 0 0;
+}
+.page_next_area ul{
+    /* border: 1px solid blueviolet; */
+
+}
+
+.page_next_area li{
+    width: 26px;
+    height: 26px;
+    font-family: 'robotoLight', sans-serif;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    font-size: 12px;
+    /* text-decoration: none; */
+}
+
+.page_next_area span{
+    color: #808080;
+
+}
+
+.page_next_area a{
+    text-decoration: none;
+}
+
+
+
+ 
+  /* contents */
+
+  .business_area{
+    width: 1160px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+.business_area li{
+    float: left;
+    width: 280px;
+    margin: 36px 0 0 100px;
+    color: #333;
+}
+
+.business_area dt{
+    width: 280px;
+    font-size: 18px;
+    font-family: 'volte SemiBold';
+    text-align: center;
+}
+.business_area dd{
+    width: 280px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    font-family:'NanumBarunGothic';
+    text-align: center;
+}
+.gallery {
+    display: block;
+}
+.gallery, img{
+    width: 100%;
+    margin: 0 auto;
+}
+.media_area{
+    width: 1020px;
+    height: 330;
+    margin: 0 auto;
+    
+}
+.img_area{
+    width: 640px;
+    overflow: hidden;
+}
+
+
+
+
+.section{
+    background-color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.book_area img{
+    width: 300px;
+    height: 280px;
+    background-size:cover
+    /* border: 1px solid red; */
+    
+}
+.section{
+    margin-bottom: 350px;
+}
+
+.section h2{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Volte Semibold';
+    color: #404040;
+    margin-top: 110px;
+}
+.section_area{
+    width: 300px;
+    height: 250px;
+    display: block;
+    width: auto;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    background-size:cover ;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+
+.secion_list{
+    width: 300px;
+    
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+
+.secion_list dt{
+    /* border: 1px red solid; */
+    margin-top: 0;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'NanumBarunGothic', sans-serif;
+    padding-top: 10px;
+    
+}
+
+.secion_list dd{
+    width: 300px;
+    /* border: 1px red solid; */
+    text-align: left;
+    margin: 0 0;
+    font-size: 13px;
+    font-family: 'NanumBarunGothic', sans-serif;
+    padding-top: 10px;
+    line-height: 20px;
+    color: rgb(94, 94, 94);
+}
+
+.secion_list dd:last-child{
+    /* border: springgreen solid; */
+    padding-top: 25px;
+    color: rgb(114, 114, 114);
+}
+
+  
+
+
+  .icon-bar a{
+    display: block;
+    padding: 16px;
+    text-align: center;
+    transition: all .3s ease;
+    font-size: 22px;
+    color: rgb(126, 126, 126);
+    float: right;
+    
+  }
+  
